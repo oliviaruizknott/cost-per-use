@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  color: #50E3C2;
+}
+
+p {
+  color: #50E3C2;
+}
+
+h1 {
+  font-family: 'Eczar', serif;
+  font-weight: 700;
+  text-transform: none;
+  color: #003D70;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #003D70;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  color: #9B9B9B;
+}
+
+label {
+  color: #50E3C2;
+}
+
+hr {
+  width: 75%;
+  border-width: 2px;
+}
+
+.app-text {
+  text-align: center;
+  margin: 50px;
+}
+
+.item-tile {
+  padding: 50px;
+  /*border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
+
+.form-tile {
+  border-style: dashed;
+  padding: 50px;
+}
+
+button {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 31px;
+  text-transform: uppercase;
+  color: #e6e6e6;
+}
+
+button:hover {
+  color: #50E3C2;
+}
+
+.submit-button {
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  background-color: #50E3C2;
+  color: white;
+  border: 1px solid #50E3C2;
+  padding: 10px;
+
+}
+
+.submit-button:hover {
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  background-color: white;
+  color: #50E3C2;
+  border: 1px solid #50E3C2;
+  padding: 10px;
+}
+
+.submit-button:clicked {
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  background-color: white;
+  color: #50E3C2;
+  border: 1px solid #50E3C2;
+  padding: 10px;
+}
+
+.hide-warning {
+  display: none;
+}
+
+.show-warning {
+  font-size: 14px;
+  color: red;
+  display: block;
+}
