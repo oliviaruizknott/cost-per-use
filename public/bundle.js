@@ -20026,7 +20026,7 @@
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'item-container' },
+	        { className: 'item-container row' },
 	        itemList
 	      );
 	    }
@@ -20117,11 +20117,11 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'item-tile callout text-center row' },
-	        _react2.default.createElement(_Name2.default, { name: this.props.name }),
+	        { className: 'small-6 columns end' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'small-6 small-centered columns' },
+	          { className: 'item-tile callout text-center' },
+	          _react2.default.createElement(_Name2.default, { name: this.props.name }),
 	          _react2.default.createElement(_OriginalCost2.default, { originalCost: this.props.originalCost }),
 	          _react2.default.createElement('hr', null),
 	          _react2.default.createElement(_UsesDiv2.default, { uses: this.state.uses, add: this.add, subtract: this.subtract }),
@@ -20302,7 +20302,7 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'CPU'
+	      'Cost Per Use'
 	    ),
 	    _react2.default.createElement(
 	      'h2',
