@@ -33,7 +33,7 @@ class ItemTile extends Component {
 
   render() {
     return(
-      <div className="small-6 columns end">
+      <div className="small-11 large-6 columns end">
         <div className="item-tile callout text-center">
           <Name name={this.props.name} />
           <OriginalCost originalCost={this.props.originalCost} />

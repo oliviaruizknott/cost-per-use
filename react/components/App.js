@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return(
-      <div className="small-8 small-centered columns">
+      <div className="small-11 small-centered medium-10 medium-centered large-8 large-centered columns">
         <p className="app-text">Cost Per Use Calculator</p>
         <ItemContainer allItems={this.state.allItems} />
         <Form

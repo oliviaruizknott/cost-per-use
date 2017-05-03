@@ -19815,7 +19815,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'small-8 small-centered columns' },
+	        { className: 'small-11 small-centered medium-10 medium-centered large-8 large-centered columns' },
 	        _react2.default.createElement(
 	          'p',
 	          { className: 'app-text' },
@@ -19927,7 +19927,7 @@
 	            { onSubmit: this.handleFormSubmit },
 	            _react2.default.createElement(
 	              'label',
-	              null,
+	              { className: 'small-centered' },
 	              'Item Name:',
 	              _react2.default.createElement('input', {
 	                name: 'name',
@@ -19941,7 +19941,7 @@
 	            _react2.default.createElement('br', null),
 	            _react2.default.createElement(
 	              'label',
-	              null,
+	              { className: 'small-centered' },
 	              'Original Cost:',
 	              _react2.default.createElement('input', {
 	                name: 'cost',
@@ -20117,7 +20117,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'small-6 columns end' },
+	        { className: 'small-11 large-6 columns end' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'item-tile callout text-center' },

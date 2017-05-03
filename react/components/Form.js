@@ -45,7 +45,7 @@ class Form extends Component {
       <div className="form-tile callout">
         <div>
           <form onSubmit={this.handleFormSubmit}>
-            <label>Item Name:
+            <label className="small-centered">Item Name:
               <input
                 name='name'
                 type='text'
@@ -56,7 +56,7 @@ class Form extends Component {
               />
             </label>
             <br/>
-            <label>Original Cost:
+            <label className="small-centered">Original Cost:
               <input
                 name='cost'
                 type='number'
